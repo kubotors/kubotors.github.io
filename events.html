@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kubotor Technologies</title>
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#212121">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="../js/pace.min.js"></script>
+  <link rel="stylesheet" href="../css/pace-theme-center-simple.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/mdb.min.css">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+  <div class="cover"></div>
+  <div id="particles-js"></div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark elegant-color-dark">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <img class="img-fluid" src="../img/final_logo_red_text.png" alt="kubotor logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="hamburger">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link nb-fontsize" href="../#intro">About Us</a>
+          </li>
+          <li class="nav-item dropdown megamenu-li">
+            <a class="nav-link nb-fontsize dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="collapse" data-target=".navbar-collapse.show">Services</a>
+            <div class="dropdown-menu megamenu elegant-color-dark wow fadeIn" aria-labelledby="dropdown01">
+                <div class="row text-center">
+                    <div class="col-sm col-lg-3">
+                      <h5 class="btn btn-outline-danger">Training</h5>
+                      <a class="dropdown-item white-text" href="#!">Information Security & Web App VAPT</a>
+                      <a class="dropdown-item white-text" href="!#">Network Penetration Testing</a>
+                      <a class="dropdown-item white-text" href="!#">Exploit Writing</a>
+                      <a class="dropdown-item white-text" href="!#">Mobile Penetration Testing</a>
+                      <a class="dropdown-item white-text" href="!#">Cyber Forensics</a>
+                  </div>
+                    <div class="col-sm col-lg-3">
+                      <h5 class="btn btn-outline-danger">Seminars & Workshops</h5>
+                      <a class="dropdown-item white-text" href="!#">Career Orientation</a>
+                      <a class="dropdown-item white-text" href="!#">Information Security</a>
+                      <a class="dropdown-item white-text" href="!#">Cyber Security Awareness</a>
+                    </div>
+                    <div class="col-sm col-lg-3">
+                      <h5 class="btn btn-outline-danger">Corporate Training</h5>
+                      <a class="dropdown-item white-text" href="!#">Integrated Security Systems & Services</a>
+                      <a class="dropdown-item white-text" href="!#">Intrusion Detection Analysis</a>
+                      <a class="dropdown-item white-text" href="!#">Malware Analysis</a>
+                      <a class="dropdown-item white-text" href="!#">Information Security</a>
+                      <a class="dropdown-item white-text" href="!#">Application Security & Secure Coding</a>
+                  </div>
+                    <div class="col-sm col-lg-3">
+                      <h5 class="btn btn-outline-danger">VAPT</h5>
+                      <a class="dropdown-item white-text" href="!#">Web App Penetration Testing</a>
+                      <a class="dropdown-item white-text" href="!#">Network Penetration Testing</a>
+                      <a class="dropdown-item white-text" href="!#">SAP Penetration Testing</a>
+                      <a class="dropdown-item white-text" href="!#">Thick Client App Penetration Testing</a>
+                    </div>
+                </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link nb-fontsize" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nb-fontsize" href="../#blogs">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nb-fontsize" href="#contactUs">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="container container-margin" style="margin-top: 120px;">
+    <div class="row">
+      <div class="col">
+        <div class="white-text" id="instagram-feed1"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    (function($){
+      $(window).on('load', function(){
+        $.instagramFeed({
+          'username': 'kubotortechnologies',
+          'container': "#instagram-feed1",
+          'display_profile': true,
+          'display_biography': false,
+          'display_gallery': true,
+          'callback': null,
+          'styling': true,
+          'items': 12,
+          'items_per_row': 3,
+          'margin': 1 
+        });
+      });
+    })(jQuery);
+  </script>
+  <footer class="page-footer font-small dark-transparent" id="contactUs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+            <a class="round blue-gradient" href="#!">
+              <i class="fab fa-facebook white-text fa-2x"> </i>
+            </a>
+            <a class="round aqua-gradient" href="https://twitter.com/Kubotortech">
+              <i class="fab fa-twitter white-text fa-2x"> </i>
+            </a>                  
+            <a class="round blue-gradient" href="#!">
+              <i class="fab fa-linkedin-in white-text fa-2x"> </i>
+            </a>                  
+            <a class="round purple-gradient" href="https://www.instagram.com/kubotortechnologies/">
+              <i class="fab fa-instagram white-text fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      	<div class="col-sm col-lg-6 bgap text-center">
+      		<a href="tel:+91-8558964701">
+      			<button class="btn btn-outline-success"><i class="fas fa-phone fa-2x"></i><span class="ml-4">+91-8558964701</span></button>
+      		</a>
+      	</div>
+      	<div class="col-sm col-lg-6 bgap text-center">
+      		<a href="mailto:info@kubotor.com">
+      			<button class="btn btn-outline-success"><i class="fas fa-envelope fa-2x"></i><span class="ml-4 no-uppercase">info@kubotor.com</span></button>
+      		</a>
+      	</div>	
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">© 2019 Copyright :
+      <a href="#!"> Kubotor Technologies PVT LTD</a>
+    </div> 
+    <div class="text-center">
+      <a href="//www.dmca.com/Protection/Status.aspx?ID=b73edaa9-ed92-4118-a62e-dbe293e03f7e" title="DMCA.com Protection Status" class="dmca-badge"> 
+        <img src ="https://images.dmca.com/Badges/dmca-badge-w200-5x1-06.png?ID=b73edaa9-ed92-4118-a62e-dbe293e03f7e"  alt="DMCA.com Protection Status"></a>  
+        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+      </div>
+    </footer>
+  
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-4-navbar.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.instagramFeed.min.js"></script>
+    <script type="text/javascript" src="../js/particles.min.js"></script>
+    <script>particlesJS.load('particles-js', '../js/particles.json', function() { console.log('SUCCESS'); });</script>
+    <script>$('.dropdown-toggle').dropdown()</script>
+    <script>new WOW().init();</script>
+    <script>
+        Pace.on("done", function(){
+            $(".cover").fadeOut(1000);
+        });
+    </script>
+  </body>
