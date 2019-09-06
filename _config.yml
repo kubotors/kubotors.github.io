@@ -1,0 +1,6 @@
+url: "https://kubotor.com"
+author: thewhiteh4t
+layouts_dir: _layouts
+
+plugins:
+  - jekyll-sitemap
