@@ -35,3 +35,4 @@ span { font-size: 20px; }
 #gform { width: 100%; height: 1080px; overflow: hidden;}
 .medium-card { width: 300px; height: auto;}
 .div-click { cursor: pointer; }
+#globe { right: 0; bottom: 0; object-fit: cover; width: 100%;height: 100vh; }
