@@ -50,9 +50,6 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/favicon-16x16.png">
 	<link rel="manifest" href="{{ site.url }}/site.webmanifest">
 	<link rel="mask-icon" href="{{ site.url }}/safari-pinned-tab.svg" color="#ff2e00">
-	<script src="{{ site.url }}/js/pace.min.js"></script>
-	<script type="text/javascript" src="{{ site.url }}/js/jquery-3.4.1.min.js"></script>
-  	<link rel="stylesheet" href="{{ site.url }}/css/pace-theme-center-simple.min.css">
 	<link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{{ site.url }}/css/mdb.min.css">
 	<link rel="stylesheet" href="{{ site.url }}/css/all.min.css">
@@ -61,7 +58,6 @@
 </head>
 
 <body>
-	<div class="cover"></div>
 	<div id="particles-js"></div>
 
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark elegant-color-dark">
@@ -188,6 +184,7 @@
 		</div>
 	</footer>
 
+	<script type="text/javascript" src="{{ site.url }}/js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="{{ site.url }}/js/popper.min.js"></script>
 	<script type="text/javascript" src="{{ site.url }}/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{ site.url }}/js/mdb.min.js"></script>
@@ -206,10 +203,5 @@
 	</script>
 	<script>particlesJS.load('particles-js', '{{ site.url }}/js/particles.json', function() { console.log('SUCCESS'); });</script>
 	<script>new WOW().init();</script>
-	<script>
-		Pace.on("done", function(){
-		    $(".cover").fadeOut(1000);
-		});
-    </script>
 </body>
 </html>

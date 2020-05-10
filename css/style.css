@@ -44,3 +44,8 @@ span { font-size: 20px; }
 .div-click { cursor: pointer; }
 #globe { right: 0; bottom: 0; object-fit: cover; width: 100%;height: 100vh; z-index: -1; }
 .medium-widget-article__title, .medium-widget-article__description, .medium-widget-article__author-name, .medium-widget-article__date { color: white !important; }
+.gallery { column-count: 2; column-gap: 10px; }
+@media only screen and (min-width: 768px) {
+    .gallery { column-count: 3; column-gap: 10px; }
+}
+.gallery-img { width: 100%; margin-bottom: 10px; border-radius: 5px; image-orientation: from-image; display: inline-block; }
