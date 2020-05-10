@@ -43,11 +43,17 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/favicon-16x16.png">
 	<link rel="manifest" href="{{ site.url }}/site.webmanifest">
 	<link rel="mask-icon" href="{{ site.url }}/safari-pinned-tab.svg" color="#ff2e00">
-	<link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
-	<link rel="stylesheet" href="{{ site.url }}/css/mdb.min.css">
-	<link rel="preload" href="{{ site.url }}/css/all.min.css">
-	<link rel="stylesheet" href="{{ site.url }}/css/style.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap"> 
+	<script>
+		var links = ["{{ site.url }}/css/bootstrap.min.css", "{{ site.url }}/css/mdb.min.css", "{{ site.url }}/css/all.min.css", "{{ site.url }}/css/style.css", "https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap"];
+		links.forEach(addLink)
+		function addLink(value) {
+			var link = document.createElement("link");
+			link.rel = "stylesheet";
+        	link.type = "text/css";
+        	link.href = value;
+        	document.getElementsByTagName('HEAD')[0].appendChild(link);
+		}
+    </script>  
 </head>
 
 <body>
@@ -178,7 +184,6 @@
 	</footer>
 
 	<script type="text/javascript" src="{{ site.url }}/js/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="{{ site.url }}/js/popper.min.js"></script>
 	<script type="text/javascript" src="{{ site.url }}/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{ site.url }}/js/mdb.min.js"></script>
 	<script type="text/javascript" src="{{ site.url }}/js/lazysizes.min.js"></script>
