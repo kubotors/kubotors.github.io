@@ -1,4 +1,4 @@
-html { scroll-behavior: smooth; height: 100%; }
+html { scroll-behavior: smooth; height: 100%; visibility: visible; opacity: 1; }
 body { background-color: #000000; font-family: 'Bai Jamjuree', sans-serif; }
 a { outline: 0; }
 span { font-size: 20px; }
