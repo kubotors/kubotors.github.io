@@ -200,7 +200,9 @@
 		});
 		//$('.navbar-nav>li>a').on('click', function(){ $('.navbar-collapse').collapse('hide'); });
 		particlesJS.load('particles-js', '{{ site.url }}/js/particles.json');
-		new WOW().init();
+		$( document ).ready(function() {
+			new WOW().init();
+		});
 	</script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145829477-1"></script>
 	<script>

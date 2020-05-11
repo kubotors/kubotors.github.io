@@ -52,3 +52,4 @@ span { font-size: 20px; }
     .gallery { column-count: 3; column-gap: 10px; }
 }
 .gallery-img { width: 100%; margin-bottom: 10px; border-radius: 5px; image-orientation: from-image; display: inline-block; }
+.wow { visibility: hidden; }
